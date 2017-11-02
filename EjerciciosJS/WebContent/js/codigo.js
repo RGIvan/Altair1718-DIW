@@ -1,6 +1,6 @@
-/**
- * 
- */
+s/**
+	 * 
+	 */
 
 var aleatorio = 0;
 var intentos = 1;
@@ -224,8 +224,8 @@ function comprobarVocales() {
 
 	var spanresult = document.getElementById("resultVocales");
 	spanresult.innerHTML = "A: " + contadores[0] + "<br/>E: " + contadores[1]
-			+ "<br/>I: " + contadores[2] + "<br/>O: " + contadores[3] + "<br/>U: "
-			+ contadores[4] + "<br/>TOTAL: " + totalVocales;
+			+ "<br/>I: " + contadores[2] + "<br/>O: " + contadores[3]
+			+ "<br/>U: " + contadores[4] + "<br/>TOTAL: " + totalVocales;
 	console.log(totalVocales);
 	console.log(contadores);
 }
