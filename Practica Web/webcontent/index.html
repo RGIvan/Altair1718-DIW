@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta charset="ISO-8859-1">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to.fit=no">
+<meta name="keywords" content="html5, dwc, altair">
+<meta name="author" content="Iván">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/var.css">
+<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/jumbo.css">
+<link rel="stylesheet" href="css/carousel.css">
+<link rel="stylesheet" href="css/footer.css">
+<link href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+	rel="stylesheet" />
+<link
+	href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	rel="stylesheet">
+
+<title>Universo Cómic</title>
+</head>
+<body>
+	<nav
+		class="navbar navbar-expand-md navbar-dark top-bar navbar-fixed-top bg-dark sps sps--abv">
+		<div class="container">
+			<button class="navbar-toggler navbar-toggler-left" type="button"
+				data-toggle="collapse" data-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#index.html">¡Universo<img
+				src="img/comic.png"></a>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href=""
+						data-toggle="modal" data-target="#modal">Cómics</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown"><button type="button"
+								class="btn btn-info mt-2 ml-4 mb-2">
+								Login<i class="fa fa-sign-in mt-1 ml-2" aria-hidden="true"></i>
+							</button> <span class="caret"></span></a>
+						<ul id="login-dp" class="dropdown-menu">
+							<li>
+								<div class="row">
+									<div class="col-md-12">
+										<form class="form" role="form" name="formulario" method="post"
+											onsubmit="enviar()" id="login-nav">
+											<div class="form-group">
+												<label class="sr-only" for="usuario"></label> <input
+													type="text" class="form-control" id="usuario"
+													placeholder="Usuario" autofocus="autofocus" required>
+											</div>
+											<div class="form-group">
+												<label class="sr-only" for="contraseña"></label> <input
+													type="password" class="form-control" id="contraseña"
+													placeholder="Contraseña" required>
+												<div class="help-block">
+													<a href="">¿Has olvidado la contraseña?</a>
+												</div>
+											</div>
+											<div class="form-group">
+												<button type="submit" onClick="irComic()"
+													class="btn btn-primary btn-block">Iniciar sesión</button>
+											</div>
+											<label class="checkbox-inline"> <input
+												type="checkbox" id="checkbox"> Recordar
+											</label>
+										</form>
+									</div>
+								</div>
+						</ul>
+				</ul>
+				<form class="navbar-form" role="search">
+					<div class="input-group-btn">
+						<button type="submit" class="btn btn-info mt-1 ml-4">
+							<i class="fa fa-search" aria-hidden="true"></i> Buscar
+						</button>
+						<div class="input-group">
+							<input type="text" class="form-control mt-1 ml-3"
+								placeholder="...">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="flickity-carousel" data-flickity='{ "autoPlay": true }'>
+		<div class="carousel-cell">
+			<div class="container">
+				<img class="first-slide" src="img/slide1.png" alt=""
+					style="height: 100%">
+			</div>
+		</div>
+		<div class="carousel-cell ml-4">
+			<img class="second-slide" src="img/slide2.png" alt=""
+				style="height: 100%">
+			<div class="container"></div>
+		</div>
+		<div class="carousel-cell">
+			<img class="third-slide" src="img/slide3.png" alt="">
+			<div class="container"></div>
+		</div>
+	</div>
+
+	<div class="jumbotron">
+		<h1 class="display-4">¡Bienvenido!</h1>
+		<br>
+		<div>
+			<a class="btn btn-info btn-lg" href="#" role="button">Leer más</a>
+		</div>
+	</div>
+
+	<div class="modal fade" id="modal" tabindex="-1" role="dialog"
+		aria-labelledby="modal" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>Manga</th>
+								<th>Marvel</th>
+								<th>DC</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>1</th>
+								<th>2</th>
+								<th>3</th>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr>
+								<td>Gintama</td>
+								<td>Shokugeki</td>
+								<td>HxH</td>
+							</tr>
+							<tr>
+								<td>Spiderman</td>
+								<td>X-Men</td>
+								<td>Fantastic Four</td>
+							</tr>
+							<tr>
+								<td>Batman: The Killing Joke</td>
+								<td>Superman</td>
+								<td>Green Lantern</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<button type="button" class="btn btn-success" data-dismiss="modal"> Cerrar
+					</button>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container-fluid bg-primary py-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="row py-0">
+							<div class="col-sm-1 hidden-md-down">
+								<a class="bg-circle bg-info" href="#"> <i
+									class="fa fa-2x fa-fw fa-address-card" aria-hidden="true"></i>
+								</a>
+							</div>
+							<div class="col-sm-11 text-white">
+								<div>
+									<h4>   Contacto</h4>
+									<p>
+										<span class="header-font"></span><span class="header-font"></span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="d-inline-block">
+							<div class="bg-circle-outline d-inline-block"
+								style="background-color: #3b5998">
+								<a href="https://www.facebook.com/"><i
+									class="fa fa-2x fa-fw fa-facebook text-white"></i> </a>
+							</div>
+							<div class="bg-circle-outline d-inline-block"
+								style="background-color: #4099FF">
+								<a href="https://twitter.com/"> <i
+									class="fa fa-2x fa-fw fa-twitter text-white"></i></a>
+							</div>
+
+							<div class="bg-circle-outline d-inline-block"
+								style="background-color: #0077B5">
+								<a href="https://www.linkedin.com/company/"> <i
+									class="fa fa-2x fa-fw fa-linkedin text-white"></i></a>
+							</div>
+							<div class="bg-circle-outline d-inline-block"
+								style="background-color: #d34836">
+								<a href="https://www.google.com/"> <i
+									class="fa fa-2x fa-fw fa-google text-white"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<p class="text-center">Copyright © Universo Cómic 2017. Todos los
+		derechos reservados.</p>
+
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>

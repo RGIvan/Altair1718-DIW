@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio01</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Stylesheets -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<p>Desarrolle un formulario con los siguientes campos (nombre,
+				apellidos, email, web, edad, login, password, repite password). Las
+				validaciones son: no permitir campos vacíos, email correcto, web
+				correcta, edad correcta, password y repetir password iguales.
+				Comprobar estas validaciones dentro del formulario</p>
+
+			<div class="col-xl-6 col-lg-6 col-md-6 col-ms-12 col-xs-12">
+				<hr>
+				<h1>Registro</h1>
+				<hr>
+				<div id="formRegistro">
+					<form action="" method="post" role="form">
+						<div class="form-group">
+							<label for="nombre">Nombre</label> <input type="text"
+								class="form-control" id="nombre" placeholder="Nombre"
+								autofocus="autofocus" onblur="validar(this)">
+						</div>
+
+						<div class="form-group">
+							<label for="apellidos">Apellidos</label> <input type="text"
+								class="form-control" id="nombre" placeholder="Apellidos"
+								autofocus="autofocus" onblur="validar(this)">
+						</div>
+
+						<div class="form-group">
+							<label for="web">Web</label> <input type="text"
+								class="form-control" id="web" placeholder="Web"
+								autofocus="autofocus" onblur="validar(this)">
+						</div>
+
+						<div class="form-group">
+							<label for="email">Email</label> <input type="email"
+								class="form-control" id="email" placeholder="Email"
+								autofocus="autofocus" onblur="validarEmail(this)"
+								onblur="validar(this)"> <span id="sp" style="color: red"></span>
+						</div>
+
+						<div class="form-group">
+							<label for="login">Edad</label> <input type="text"
+								class="form-control" id="edad" placeholder="Edad"
+								autofocus="autofocus" onblur="validar(this)">
+						</div>
+
+						<button type="submit" class="btn btn-dark btn-lg">
+							<i class="fa fa-sign-in"></i> Enviar
+						</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-ms-12 col-xs-12">
+				<hr>
+				<h1>Login</h1>
+				<hr>
+				<div id="formLogin">
+					<form action="" method="post" role="form">
+						<div class="form-group">
+							<label for="login">Login</label> <input type="text"
+								class="form-control" id="login" placeholder="Login"
+								autofocus="autofocus" onblur="validar(this)">
+						</div>
+
+						<div class="form-group">
+							<label for="password">Password</label> <input type="password"
+								class="form-control" id="password" placeholder="Password"
+								onblur="validar(this)">
+						</div>
+						<div class="form-group">
+							<label for="password">Repite password</label> <input
+								type="password" class="form-control" id="passwordRepite"
+								placeholder="Password" onblur="validar(this)">
+						</div>
+						<button type="submit" class="btn btn-dark btn-lg">
+							<i class="fa fa-sign-in"></i> Enviar
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<script type="text/javascript" src="js/codigo.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
