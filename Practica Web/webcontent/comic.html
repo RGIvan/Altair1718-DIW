@@ -23,7 +23,7 @@
 
 <title>Universo Cómic</title>
 </head>
-<body>
+<body onload="carga()">
 	<nav
 		class="navbar navbar-expand-md navbar-dark top-bar navbar-fixed-top bg-dark sps sps--abv">
 		<div class="container">
@@ -33,49 +33,19 @@
 				aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand" href="#index.html">¡Universo<img
+			<a class="navbar-brand" href="#comic.html">¡Universo<img
 				src="img/comic.png"></a>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mx-auto">
-					<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a>
+					<li class="nav-item"><a class="nav-link" href="comic.html">Inicio</a>
 					</li>
 					<li class="nav-item"><a class="nav-link" href=""
 						data-toggle="modal" data-target="#modal">Cómics</a></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown"><button type="button"
-								class="btn btn-info mt-2 ml-4 mb-2">
-								Login<i class="fa fa-sign-in mt-1 ml-2" aria-hidden="true"></i>
-							</button> <span class="caret"></span></a>
-						<ul id="login-dp" class="dropdown-menu">
-							<li>
-								<div class="row">
-									<div class="col-md-12">
-										<form class="form" role="form" name="formulario" method="post"
-											onsubmit="enviar()" id="login-nav">
-											<div class="form-group">
-												<label class="sr-only" for="usuario"></label> <input
-													type="text" class="form-control" id="usuario"
-													placeholder="Usuario" autofocus="autofocus" required>
-											</div>
-											<div class="form-group">
-												<label class="sr-only" for="contraseña"></label> <input
-													type="password" class="form-control" id="contraseña"
-													placeholder="Contraseña" required>
-												<div class="help-block">
-													<a href="">¿Has olvidado la contraseña?</a>
-												</div>
-											</div>
-											<div class="form-group">
-												<button type="button" onClick="irComic()"
-													class="btn btn-primary btn-block">Iniciar sesión</button>
-											</div>
-											<label class="checkbox-inline"> <input
-												type="checkbox" id="checkbox"> Recordar
-											</label>
-										</form>
-									</div>
-								</div>
-						</ul>
+					<li><button type="button" class="btn btn-info mt-2 ml-4 mb-2"
+							onClick="irIndex()">
+							Cerrar Sesión<i class="fa fa-sign-in mt-1 ml-2"
+								aria-hidden="true"></i>
+						</button> <span class="caret"></span>
 				</ul>
 				<form class="navbar-form" role="search">
 					<div class="input-group-btn">
@@ -112,7 +82,7 @@
 
 	<div class="jumbotron">
 		<h1 class="display-4">
-			¡Bienvenido! <span></span>
+			¡Bienvenido, <span id="var"></span>!
 		</h1>
 		<br>
 		<div>
@@ -159,7 +129,7 @@
 						</tbody>
 					</table>
 				</div>
-				<button type="button" class="btn btn-success" data-dismiss="modal">
+				<button type="submit" class="btn btn-success" data-dismiss="modal">
 					Cerrar</button>
 			</div>
 		</div>

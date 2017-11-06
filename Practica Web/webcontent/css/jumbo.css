@@ -2,7 +2,7 @@
 	opacity: 10;
 	overflow: hidden;
 	margin-top: 60px;
-	background: url("http://ramenparados.com/wp-content/uploads/2016/11/your-name.png") fixed;
+	background: url("http://ramenparados.com/wp-content/uploads/2016/11/your-name.png");
 	background-repeat: no-repeat;
 	background-position:center;
 	background-attachment: fixed;
@@ -11,5 +11,5 @@
 
 .jumbotron h1{
 	color:threedhighlight;
-	margin-left: 1100px;
+	margin-left: 700px;
 }

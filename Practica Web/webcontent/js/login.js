@@ -4,16 +4,19 @@ function enviar() {
 	} else {
 		localStorage.removeItem("localStorage");
 	}
-
 	return true;
 }
 
 function irComic() {
-	alert("Bienvenido: " + localStorage.getItem("localStorage"));
+	window.top.location.href = ("comic.html");
 }
 
 function irIndex() {
 	window.top.location.href = ("index.html");
+}
+
+function carga() {
+	document.getElementById("var").innerHTML = localStorage.getItem("localStorage");
 }
 
 function init() {
@@ -23,4 +26,4 @@ function init() {
 	}
 }
 
-window.addEventListener("load", init, false);
+window.addEventListener("load", init(), false);
