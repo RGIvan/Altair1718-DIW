@@ -6,17 +6,30 @@
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-	
+	$("#button").click(function () {
+			$("#parrafo a: first-child").toggleClass("btnNeg");
+		});
 });
 </script>
 <style type="text/css">
 body {
 	margin: 10px;
 }
+
+.btnNeg{
+	font-weight: bold;	
+}
 </style>
 </head>
 <body>
 	<p>3. Cree un párrafo con tres enlaces en su interior. Al pulsar un
 		botón debe poner en negrita el texto del primer enlace.</p>
+
+	<p id="parrafo">
+		<a href="www.google.es">Enlace1</a> <a href="www.amazon.es">Enlace2</a>
+		<a href="www.ebay.es">Enlace3</a>
+	</p>
+	<button id="button">Botón</button>
+
 </body>
 </html>
