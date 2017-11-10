@@ -6,7 +6,12 @@
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-	
+	$("img").mouseenter(function() {
+			$(this).addClass("oculto");
+		});
+	$("img").mouseleave(function() {
+			$(this).removeClass("oculto");
+		});
 });
 </script>
 <style type="text/css">
@@ -14,7 +19,7 @@ body {
 	margin: 10px;
 }
 
-.ocult {
+.oculto {
 	visibility: hidden;
 }
 </style>
@@ -25,7 +30,7 @@ body {
 		la imagen. Utilice sólo una clase de css.</p>
 		
 		<div>
-			<img id="image" alt="img" src="">
+			<img id="image" alt="img" src="img/pin.png"/>
 		</div> 
 </body>
 </html>
