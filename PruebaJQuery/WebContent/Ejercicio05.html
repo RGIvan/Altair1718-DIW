@@ -6,8 +6,12 @@
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-	
-});
+	$(#boton).click(function() {
+		if (isEmpty($("#texto"))){
+			$("#error").text("Error");
+			}
+		});
+	});
 </script>
 <style type="text/css">
 body {
@@ -20,5 +24,11 @@ body {
 		pulsa el botón y el campo está vacío, debe mostrar el error en un
 		párrafo debajo del formulario. Si pulsa el botón y el campo no está
 		vació, debe enviar el formulario.</p>
+		
+		<form action="" id="form" method="post">
+			<input type="text" id="texto">
+			<input type="submit" id="boton">
+		</form>
+		<span id="error">Error</span>
 </body>
 </html>
