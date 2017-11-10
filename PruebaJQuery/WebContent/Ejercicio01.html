@@ -6,13 +6,34 @@
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-	
+	$("#capa1").hover(function(){
+		$(this).toggleClass("#backBlue")
+		});
+	$("#capa2").hover(function(){
+		$(this).toggleClass("barYellow")
+		});
+	$("#capa3").hover(function(){
+		$(this).toggleClass("texGreen")
+		});
 });
 </script>
 <style type="text/css">
 body {
 	margin: 10px;
 }
+
+.backBlue{
+	background-color:blue;
+}
+
+.barYellow{
+	border: 2px solid yellow;
+}
+
+.texGreen{
+	color: green;
+}
+
 </style>
 </head>
 <body>
@@ -22,8 +43,16 @@ body {
 		amarillo a la capa. Por último, si pulsamos en la capa con id capa2 se
 		debe poner la letra de color verde.</p>
 		
-		<div class="capa1">
-			
+		<div id="capa1">
+			<p>capa1</p>
+		</div>
+		
+		<div id="capa2">
+			<p>capa2</p>
+		</div>
+		
+		<div id="capa3">
+			<p>capa3</p>
 		</div>
 </body>
 </html>
