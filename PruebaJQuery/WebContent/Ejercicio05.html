@@ -6,8 +6,8 @@
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-	$(#boton).click(function() {
-		if (isEmpty($("#texto"))){
+	$("#boton").click(function() {
+		if ($("#texto").val() == ""){
 			$("#error").text("Error");
 			}
 		});
@@ -29,6 +29,6 @@ body {
 			<input type="text" id="texto">
 			<input type="submit" id="boton">
 		</form>
-		<span id="error">Error</span>
+		<span id="error"></span>
 </body>
 </html>
