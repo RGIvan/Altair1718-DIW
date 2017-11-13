@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejercicio01</title>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$("#titulo1").hover(function(){
+		$(this).toggleClass("fuenteVerdana")
+		$(this).toggleClass("fondoSilver")
+		$(this).toggleClass("fuenteColorGraytxt")
+		});
+	$("#titulo2").hover(function(){
+		$(this).toggleClass("fuenteArial")
+		$(this).toggleClass("fondoLima")
+		$(this).toggleClass("fuenteColorGray")
+		});
+});
+</script>
+<style type="text/css">
+body {
+	margin: 10px;
+}
+
+.fuenteVerdana {
+	font-family: "Verdana";
+}
+
+.fondoSilver {
+	background-color:silver;
+}
+
+.fuenteColorGraytxt {
+	color:graytext;
+}
+
+.fuenteArial {
+	font-family: "Arial";
+}
+
+.fondoLima {
+	background-color:lime;
+}
+
+.fuenteColorGray {
+	color:gray;
+}
+</style>
+</head>
+<body>
+	<p>Página que muestre dos títulos de primer nivel (h1), al ser
+		presionados cambiar el color de fuente, fondo y la fuente del texto.</p>
+		
+		<div id="titulo1">
+			<h1>Título 1</h1>
+		</div>
+		
+		<div id="titulo2">
+			<h1>Título 2</h1>
+		</div>
+
+</body>
+</html>

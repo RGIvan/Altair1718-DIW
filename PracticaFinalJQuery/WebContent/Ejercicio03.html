@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejercicio03</title>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$("#boton").click(function() {
+		if ($("#texto").val() == ""){
+				$("#texto").toggleClass("error")
+			}
+	if ($("#radio1").is(":checked")){
+			$("#radio1").toggleClass("checked")
+		}
+	else{
+		$("#radio2").toggleClass("checked")		
+	}
+	});
+});
+</script>
+
+<style type="text/css">
+body {
+	margin: 10px;
+}
+
+.error {
+	border-color: red;
+}
+
+.checked {
+	color: green;
+}
+</style>
+
+</head>
+<body>
+	<p>Cree un formulario para validar un campo de texto (si está
+		vacío). Si salta la validación debe cambiar el color del borde de la
+		caja de texto (rojo) y devolver el foco a la caja de texto. Añadir dos
+		checkbox y comprobar que se ha pulsado, por lo menos, uno de ellos.</p>
+
+	<form action="">
+		<input type="text" id="texto" autofocus="autofocus"> <input
+			type="button" id="boton" value="Enviar"> <input type="radio"
+			id="radio1" value="radio1" name="estado"> Radio1 <input
+			type="radio" id="radio2" value="radio2" name="estado"> Radio2
+	</form>
+</body>
+</html>

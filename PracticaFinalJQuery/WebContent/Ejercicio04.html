@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejercicio04</title>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$("#btnPoner").click(function() {
+		$("#table").addClass("borde")
+	});
+
+	$("#btnQuitar").click(function() {
+		$("#table").removeClass("borde")
+	});
+});
+</script>
+
+<style type="text/css">
+body {
+	margin: 10px;
+}
+
+.borde {
+	border: 2px solid #fff;
+	border-color: aqua;
+}
+</style>
+</head>
+<body>
+	<p>Defina una tabla y dos botones. Al pulsar en el primer botón
+		debe poner borde a la tabla. Al pulsar en el segundo botón debe quitar
+		el borde de la tabla.</p>
+
+	<table id="table">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+		</tr>
+	</table>
+	<button id="button" id="btnPoner">Poner borde</button>
+	<button id="button" id="btnQuitar">Quitar borde</button>
+</body>
+</html>
