@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio01</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Stylesheets -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<p>1. Desarrolle un formulario con los siguientes campos a
+				validar: - Nombre y Apellidos (validar no vacío y mayor que 20) -
+				Correo Electrónico (validar no vacío, correo correcto) - CheckBox
+				Estado Civil (Soltero / Casado) (validar que se ha marcado alguno) -
+				Desplegable con aficiones (debe seleccionar uno) - Password y
+				repetir password (comprobar vacíos e iguales)</p>
+		</div>
+	</div>
+
+	<div id="form">
+		<h1>Formulario</h1>
+		<div id="form">
+			<form action="" method="post" name="form"
+				onsubmit="return validarFormulario()">
+				<label for="nombre">Nombre</label> <input type="text" name="nombre"
+					id="nombre" placeholder="Nombre" autofocus="autofocus"
+					onblur="validarNombre(this)" ><span id="spnombre"
+					style="color: red"></span> <br /> <label for="apellidos">Apellidos</label>
+				<input type="text" name="apellidos" id="apellidos"
+					placeholder="Apellidos" onblur="validarApellidos(this)"><span id="spapellidos"
+					style="color: red"></span> <br> <label id="estado">Estado
+					Civil</label> <input type="radio" name="estado" id="estado" value="S"
+					checked="checked">Soltero <input type="radio" name="estado"
+					id="estado" value="C">Casado <span id="spestado"
+					style="color: red"></span> <br> <label for="email">Email</label>
+				<input type="email" name="email" id="email"
+					onblur="validarEmail(this)" placeholder="E-mail"> <span
+					id="spemail" style="color: red"></span> <br /> <label
+					for="contraseña">Contraseña </label><input type="password"
+					name="password" id="contraseña" onblur="validarContraseña(this)"
+					placeholder="Contraseña"> <span id="spcontraseña"
+					style="color: red"></span><br> <label for="contraseña">Repetir
+					contraseña </label><input type="password" name="password"
+					id="repetircontraseña" onblur="validarContraseñaRepetida(this)"
+					placeholder="Repetir contraseña"> <span
+					id="sprepetircontraseña" style="color: red"></span> <br> <input
+					type="submit" value="Enviar">
+			</form>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<script type="text/javascript" src="js/codigo.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

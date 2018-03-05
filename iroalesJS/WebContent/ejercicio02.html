@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Ejercicio01</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Stylesheets -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<p>Diseñe una página que muestre la hora actual con el siguiente
+				formato (salude correctamente). Son las 11:30. Buenos días</p>
+
+		<script type="text/javascript">
+		FechaHora();
+		function FechaHora() {
+
+	    var hora = new Date()
+
+	    var hrs = hora.getHours();
+
+	    var min = hora.getMinutes();
+
+	    var m = new Array();
+
+	    m[0]="Buenos días";  m[1]="Buenas tardes";  m[2]="Buenas noches";
+
+	    document.write("Hola. Son las " + hrs + ":" + min + ". " + m[0]);
+		}
+	    </script>
+		</div>
+	</div>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
