@@ -1,0 +1,42 @@
+* {
+    background: #EEEEEE;
+    align-content: center;
+    text-align: center;
+}
+
+#menu {
+    border-bottom: 3px solid #DDDDDD;
+}
+
+dt {
+    display: inline;
+    font-family: verdana;
+    font-size: 14px;
+    border-bottom: 3px solid #DDDDDD;
+}
+
+#articulo > p {
+    border-top: 3px solid #DDDDDD;
+    border-bottom: 3px solid #DDDDDD;
+}
+
+#agrupar {
+    margin: 10%;
+    margin-top: 10px;
+}
+
+#cabecera {
+    background: black;
+    margin: 10%;
+    margin-top: 50px;
+}
+
+#cabecera > img {
+    margin-right: 80%;
+}
+
+h1 {
+    font-family: verdana;
+    font-style: initial;
+    font-size: 26px;
+}
