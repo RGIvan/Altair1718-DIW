@@ -10,3 +10,16 @@ header {
     color:cadetblue;
     border: solid 2px;
 }
+
+nav {
+    border: solid 1px cadetblue;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    font-family: Consolas;
+    font-size: 16px;
+    color: darkblue;
+    padding: 1%;
+}
