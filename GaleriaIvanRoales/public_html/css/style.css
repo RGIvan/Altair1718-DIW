@@ -39,3 +39,11 @@ h1 {
 section {
     max-width: 960px;
 }
+
+#bgimg {
+    background: url('../img/adoracionMurillo.jpg');
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 578px;
+    border: solid 2px cadetblue;
+}
