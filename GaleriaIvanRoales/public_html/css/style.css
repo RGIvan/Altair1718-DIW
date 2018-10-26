@@ -11,6 +11,11 @@ header {
     border: solid 2px;
 }
 
+header > img {
+    width: 220px;
+    height: 150px;
+}
+
 nav {
     border: solid 1px cadetblue;
 }
@@ -22,4 +27,20 @@ li {
     font-size: 16px;
     color: darkblue;
     padding: 1%;
+}
+
+h1 {
+    font-family: Consolas;
+    color:cadetblue;
+    font-size: 32px;
+    text-align: center;
+}
+
+section {
+    max-width: 960px;
+}
+
+#actual {
+    float: right;
+    border: solid 2px cadetblue;
 }
