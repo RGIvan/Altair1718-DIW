@@ -39,8 +39,3 @@ h1 {
 section {
     max-width: 960px;
 }
-
-#actual {
-    float: right;
-    border: solid 2px cadetblue;
-}
