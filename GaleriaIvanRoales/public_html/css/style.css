@@ -61,6 +61,7 @@ section {
     height: 240px;
     position: absolute;
     left: 5%;
+    text-align: center;
 }
 
 #art2 {
@@ -73,6 +74,7 @@ section {
     height: 240px;
     position: absolute;
     left: 35%;
+    text-align: center;
 }
 
 #art3 {
@@ -85,6 +87,7 @@ section {
     height: 160px;
     position: absolute;
     left: 65%;
+    text-align: center;
 }
 
 .artistas {
@@ -92,7 +95,7 @@ section {
     height: 300px;  
     margin-top: 33%;
     left: 50%;
-    margin-left:-384px;
+    margin-left:-370px;
     right: 150px;
     position: absolute;
 }
