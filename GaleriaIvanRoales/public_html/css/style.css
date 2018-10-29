@@ -46,8 +46,9 @@ section {
     width: 750px;
     height: 578px;
     border: solid 2px cadetblue;
-    margin-left: 26.5%;
-    margin-right: 30.5%;
+    position: absolute;
+    left: 53.5%;
+    margin-left:-450px;
 }
 
 #art1 {
@@ -58,8 +59,8 @@ section {
     background-size: 100%;
     width: 200px;
     height: 240px;
-    margin-left: 35.5%;
-    margin-right: 30.5%;
+    position: absolute;
+    left: 5%;
 }
 
 #art2 {
@@ -70,8 +71,8 @@ section {
     border: solid 2px cadetblue;
     width: 200px;
     height: 240px;
-    margin-left: 35.5%;
-    margin-right: 30.5%;
+    position: absolute;
+    left: 35%;
 }
 
 #art3 {
@@ -82,13 +83,16 @@ section {
     border: solid 2px cadetblue;
     width: 200px;
     height: 160px;
-    margin-left: 35.5%;
-    margin-right: 30.5%;
+    position: absolute;
+    left: 65%;
 }
 
 .artistas {
-    margin-top: 50px;
-    width: 100%;
-    display: inline-block;
-    border: solid 2px cadetblue;
+    width: 750px;
+    height: 300px;  
+    margin-top: 33%;
+    left: 50%;
+    margin-left:-384px;
+    right: 150px;
+    position: absolute;
 }
