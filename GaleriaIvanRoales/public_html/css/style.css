@@ -1,5 +1,4 @@
 body {
-    margin: auto 0;
     background: cornsilk;
 }
 
@@ -41,7 +40,7 @@ section {
     max-width: 960px;
 }
 
-.bgimg {
+.bgart {
     background: url('../img/adoracionMurillo.jpg');
     background-repeat: no-repeat;
     width: 750px;
@@ -51,28 +50,45 @@ section {
     margin-right: 30.5%;
 }
 
-#img1 {
+#art1 {
     background: url('../img/velazquez.jpg');
     background-repeat: no-repeat;
     border: solid 2px cadetblue;
     background-position: center;
     background-size: 100%;
-    margin-top: 20px;
     width: 200px;
     height: 240px;
     margin-left: 35.5%;
     margin-right: 30.5%;
 }
 
-#img2 {
+#art2 {
     background: url('../img/murillo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     border: solid 2px cadetblue;
-    margin-top: 20px;
     width: 200px;
     height: 240px;
     margin-left: 35.5%;
     margin-right: 30.5%;
+}
+
+#art3 {
+    background: url('../img/Greco.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: solid 2px cadetblue;
+    width: 200px;
+    height: 160px;
+    margin-left: 35.5%;
+    margin-right: 30.5%;
+}
+
+.artistas {
+    margin-top: 50px;
+    width: 100%;
+    display: inline-block;
+    border: solid 2px cadetblue;
 }
