@@ -11,9 +11,10 @@ header {
     border: solid 2px;
 }
 
-header > img {
-    width: 220px;
-    height: 150px;
+header > a > img {
+    width: 100px;
+    height: 100px;
+    margin-top: 1%;
 }
 
 nav {
@@ -30,7 +31,7 @@ li {
 }
 
 h1 {
-    font-family: Consolas;
+    font-family: Corbel;
     color:cadetblue;
     font-size: 32px;
     text-align: center;
@@ -98,4 +99,12 @@ section {
     margin-left:-370px;
     right: 150px;
     position: absolute;
+}
+
+#btn {
+    width: 200px;
+    height: 240px;
+    position: absolute;
+    top: 0.2%;
+    left: 0.2%;
 }
