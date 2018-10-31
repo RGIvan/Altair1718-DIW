@@ -1,6 +1,5 @@
 body {
     background: cornsilk;
-    margin: 0 auto;
 }
 
 header {
@@ -154,7 +153,8 @@ footer {
 }
 
 #cuadros {
-    float: left;
+    margin-left: 50%;
+    width: 100%;
 }
 
 aside {
