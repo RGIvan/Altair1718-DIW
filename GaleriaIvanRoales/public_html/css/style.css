@@ -1,5 +1,6 @@
 body {
     background: cornsilk;
+    margin: 0 auto;
 }
 
 header {
@@ -21,13 +22,13 @@ nav {
     border: solid 1px cadetblue;
 }
 
-li {
+#ul > li {
     display: inline-block;
     list-style: none;
     font-family: Consolas;
     font-size: 16px;
     color: darkblue;
-    padding: 1%;
+    padding: 1%; 
 }
 
 h1 {
@@ -41,15 +42,14 @@ section {
     max-width: 960px;
 }
 
-.bgart {
+#bgart {
     background: url('../img/adoracionMurillo.jpg');
     background-repeat: no-repeat;
     width: 750px;
     height: 578px;
     border: solid 2px cadetblue;
-    position: absolute;
-    left: 53.5%;
-    margin-left:-450px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #art1 {
@@ -60,9 +60,8 @@ section {
     background-size: 100%;
     width: 200px;
     height: 240px;
-    position: absolute;
-    left: 5%;
     text-align: center;
+    float: left;
 }
 
 #art2 {
@@ -73,9 +72,11 @@ section {
     border: solid 2px cadetblue;
     width: 200px;
     height: 240px;
-    position: absolute;
-    left: 35%;
     text-align: center;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 30%;
 }
 
 #art3 {
@@ -86,29 +87,76 @@ section {
     border: solid 2px cadetblue;
     width: 200px;
     height: 160px;
-    position: absolute;
-    left: 65%;
     text-align: center;
+    float: left;
 }
 
 .artistas {
-    width: 750px;
-    height: 300px;  
-    margin-top: 33%;
-    left: 50%;
-    margin-left: -370px;
-    right: 150px;
-    position: absolute;
+    margin-top: 4%;
+    margin-left: 32%;
 }
 
 #btn {
+    position: absolute;
     width: 200px;
     height: 240px;
-    position: absolute;
-    top: 0.2%;
-    left: 0.2%;
+    top: 107.5%;
+    left: 532px;
 }
 
 footer {
-    
+    text-align: center;
+    clear: both;
+    background: moccasin;
+    border: solid 3px #666666;
+    height: 20%;
+    margin: 0 auto;
+}
+
+#columIzq {
+    font-family: Cambria;
+    font-size: 19px;
+    margin-right: 50%;
+    font-weight: bold;
+}
+
+#columDer {
+    font-family: Cambria;
+    font-size: 19px;
+    margin-left: 50%;
+    margin-top: -12%;
+    font-weight: bold;
+}
+
+#copy {
+    font-family: Cambria;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#img {
+    width: 200px;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: solid 3px cadetblue;
+}
+
+#txt {
+    border: solid 3px cadetblue;
+    width: 350px;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: Cambria;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#cuadros {
+    float: left;
+}
+
+aside {
+    max-width: 40%;
 }
