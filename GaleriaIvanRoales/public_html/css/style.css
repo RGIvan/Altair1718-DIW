@@ -1,5 +1,10 @@
 body {
     background: cornsilk;
+    margin: auto 0; 
+}
+
+#main {
+    max-width: 960px;
 }
 
 header {
@@ -30,25 +35,17 @@ nav {
     padding: 1%; 
 }
 
-h1 {
-    font-family: Corbel;
-    color: cadetblue;
-    font-size: 32px;
-    text-align: center;
-}
-
-section {
-    max-width: 960px;
-}
-
 #bgart {
     background: url('../img/adoracionMurillo.jpg');
     background-repeat: no-repeat;
     width: 750px;
     height: 578px;
     border: solid 2px cadetblue;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 5%;
+    text-align: left;
+    text-indent: 1.5em;
 }
 
 #art1 {
@@ -75,7 +72,7 @@ section {
     float: left;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
 }
 
 #art3 {
@@ -92,15 +89,16 @@ section {
 
 .artistas {
     margin-top: 4%;
-    margin-left: 32%;
+    margin-left: 55%;
+    width: 100%;
 }
 
 #btn {
     position: absolute;
     width: 200px;
     height: 240px;
-    top: 107.5%;
-    left: 532px;
+    top: 98.7%;
+    left: 39.4%;
 }
 
 footer {
@@ -108,28 +106,23 @@ footer {
     clear: both;
     background: moccasin;
     border: solid 3px #666666;
-    height: 20%;
-    margin: 0 auto;
+    height: 18%;
 }
 
 #columIzq {
     font-family: Cambria;
     font-size: 19px;
-    margin-right: 50%;
     font-weight: bold;
+    margin-left: 20%;
+    float: left;
 }
 
 #columDer {
     font-family: Cambria;
     font-size: 19px;
-    margin-left: 50%;
     font-weight: bold;
-}
-
-#copy {
-    font-family: Cambria;
-    font-size: 19px;
-    font-weight: bold;
+    margin-right: 20%;
+    float: right;    
 }
 
 #img {
@@ -145,17 +138,22 @@ footer {
     width: 350px;
     height: 400px;
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 30%;
     font-family: Cambria;
     font-weight: bold;
     padding: 10px;
 }
 
 #cuadros {
-    margin-left: 50%;
+    margin-left: 60%;
+    margin-top: 14%;
+    height: 100%;
     width: 100%;
 }
 
 aside {
-    max-width: 40%;
+    max-width: 10%;
+    margin-top: 5%;
+    float: left;
+    margin-left: 10%;
 }
