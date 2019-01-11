@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Galeria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="ccs/Panaderia.css" rel="stylesheet" type="text/css"/>
+        <script>
+           function PortuguesAEspañol() {
+    españoles = document.getElementsByClassName("esp");
+    portugues = document.getElementsByClassName("por");
+    for (var i = 0; i < españoles.length; i++) {
+        españoles[i].className = "esp visible";
+    }
+    for (var i = 0; i < portugues.length; i++) {
+        portugues[i].className = "por hidden";
+    }
+}
+function EspañolAPortugues() {
+    españoles = document.getElementsByClassName("esp");
+    portugues = document.getElementsByClassName("por");
+    for (var i = 0; i < portugues.length; i++) {
+        portugues[i].className = "por visible";
+    }
+    for (var i = 0; i < españoles.length; i++) {
+        españoles[i].className = "esp hidden";
+    }
+}   
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="encabezado">
+                <a href="#"><img src="img/logo.jpg"></a>
+            <h1 class="esp visible">Migas Amigas</h1>
+            <h1 class="por hidden">Migas Amigas</h1>
+            <button clase="idioma" onclick="EspañolAPortugues()">POR</button>
+            <button clase="idioma" onclick="PortuguesAEspañol()">ESP</button>
+            
+        <nav id="nav">
+            <ul id="ul">
+                <li class="esp visible" id="li"><a id="amenu" href="index.html">Inicio</a></li>
+                <li class="por hidden" id="li"><a id="amenu" href="index.html">lar</a></li>
+                <li class="esp visible" id="li"><a id="amenu" href="#">Panadería</a></li>
+                <li class="por hidden" id="li"><a id="amenu" href="#">Padaria</a></li>
+                <li class="esp visible" id="li"><a id="amenu" href="">Pasteleria-Bolleria</a></li>
+                <li class="por hidden" id="li"><a id="amenu" href="">Pastelaria-Padaria</a></li>
+                <li class="esp visible" id="li"><a id="amenu" href="">Empanadas</a></li>
+                <li class="por hidden" id="li"><a id="amenu" href="">Empanadas</a></li>
+            </ul>
+        </nav>
+            </div>
+        </header>
+        <div id="grid">
+            <div id="productouno">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Baguette</dt>
+                    <dd class="esp visible">Originario de Francia, es un pan alargado elaborado con harina de trigo. Su popularidad se debe a una ley de 1920 que permitía a
+                        los panaderos no comenzar a trabajar antes de las cuatro de la mañana. Esto no permitía que los grandes panes que se acostumbraban 
+                        a hacer estuviera listos para la hora del desayuno, mientras que el baguette se cocía más rápido. En Venezuela existe el pan ‘canilla’
+                        como variación, mientras que el baguette original se conoce como ‘pan francés’.
+                    </dd>
+                    <dt class="por hidden">Baguette</dt>
+                    <dd class="por hidden">Originalmente da França, é um pão alongado feito com farinha de trigo. Sua popularidade é devida a uma lei de 1920 que permitia
+                        Os padeiros não começam a trabalhar antes das quatro da manhã. Isso não permitiu que os grandes pães que costumavam
+                        para prepará-lo para o café da manhã, enquanto a baguete cozinhava mais rápido. Na Venezuela há pão 'canilla' 
+                        como variação, enquanto a baguete original é conhecida como "pão francês".
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productodos">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Pan de queso</dt>
+                    <dd class="esp visible">Realizado con harina de mandioca (yuca) y de queso, este pan proviene de las tradiciones culinarias de Brasil. Algunos historiadores 
+                        sugieren que data del siglo XIX, cuando la harina que llegaba a las cocinas era de mala calidad. Las cocineras se las ingeniaron para 
+                        sustituirla por harina de mandioca y aprovechaban el queso que muchas veces se perdía para preparar el pan de queso a sus señores.
+                    </dd>
+                    <dt class="por hidden">Pão de queijo</dt>
+                    <dd class="por hidden">Feito com farinha de mandioca (mandioca) e queijo, este pão vem das tradições culinárias do Brasil. Alguns historiadores
+                        Eles sugerem que ela data do século 19, quando a farinha que alcançou as cozinhas era de má qualidade. Os cozinheiros conseguiram
+                        substitua-o por farinha de mandioca e aproveite o queijo que muitas vezes foi perdido para preparar o pão de queijo para os seus donos.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productotres">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Pita</dt>
+                    <dd class="esp visible">Es un pan muy común en los países del Medio Oriente, de donde procede. En los países occidentales, su popularidad viene dada por
+                        la inmigración árabe a principios del siglo XX y, más recientemente, por el auge que han tenido los kebabs o shawarmas. Este pan
+                        plano también es tradicional en India y Grecia, mientras que en los países africanos lo utilizan como una especie de tenedor, para
+                        llevarse la comida a la boca.
+                    </dd>
+                    <dt class="por hidden">Pita</dt>
+                    <dd class="por hidden">É um pão muito comum nos países do Oriente Médio, de onde vem. Nos países ocidentais, sua popularidade é dada por
+                        Imigração árabe no início do século XX e, mais recentemente, o surgimento de kebabs ou shawarmas. Este pão
+                        apartamento é também tradicional na Índia e na Grécia, enquanto nos países africanos é usado como uma espécie de garfo, 
+                        leve a comida para a boca.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productocuatro">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Casabe</dt>
+                    <dd class="esp visible">Es un pan ácimo, es decir, que no lleva levadura.  Hecho de harina de yuca y asado en un budare o plancha, el casabe es un alimento de 
+                        origen indígena, específicamente de las tribus ubicadas en Centroamérica y en el norte de Sudamérica. Generalmente se come acompañado de queso.
+                    </dd>
+                    <dt class="por hidden">Casabe</dt>
+                    <dd class="por hidden">É pão sem fermento, isto é, não contém fermento. Feita a partir de farinha de mandioca e assada numa frigideira, a casabe é um alimento de
+                        origem indígena, especificamente das tribos localizadas na América Central e no norte da América do Sul. Geralmente é comido acompanhado de queijo.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productocinco">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Pan de Payés</dt>
+                    <dd class="esp visible">Quizás el nombre no sea tan común, pero al pan de payés suelen llamarlo pan campesino. Procede de las zonas rurales de Cataluña,
+                        de donde deriva su nombre, payés, que significa campesino. Como la corteza es más dura que la del resto de los panes, la miga que 
+                        se encuentra en el interior se conserva blanda por más días.
+                    </dd>
+                    <dt class="por hidden">Pão de Payés</dt>
+                    <dd class="por hidden">Talvez o nome não seja tão comum, mas o pão camponês é freqüentemente chamado de pão camponês. Ele vem das áreas rurais da Catalunha,
+                        da qual deriva seu nome, camponês, que significa camponês. Como a crosta é mais dura que o resto do pão, a migalha 
+                        encontra-se dentro dele é macio por mais dias.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productoseis">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Mantou</dt>
+                    <dd class="esp visible">El pan redondito, dulce, que acompaña la comida china y que a muchos fascina recibe el nombre de mantou. Se elabora con harina de trigo
+                        y se cocina al vapor y luego, en ocasiones, se fríen. También hay variaciones en las que se le coloca algún relleno al pan, por ejemplo, carne.
+                    </dd>
+                    <dt class="por hidden">Mantou</dt>
+                    <dd class="por hidden">O pão redondito, doce, que acompanha a comida chinesa e que muitos fascina recebe o nome de mantou. É feito com farinha de trigo
+                        e cozido no vapor e depois, às vezes, frito. Existem também variações em que é colocado algum recheio de pão, por exemplo, carne.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productosiete">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Pan de molde</dt>
+                    <dd class="esp visible">Este pan rebanado es, quizás, el más común de los panes y al que se le da más uso, sobre todo a la hora de preparar un sándwich. El
+                        pan de molde es sencillamente un producto de la industrialización de comienzos del siglo XX, cuando el invento de la máquina de rebanar 
+                        el pan revolucionó la industria panadera. El hecho de que el pan se vendiera ya cortado se ajustaba perfectamente a la rutina cada vez 
+                        más agitada  de las personas, que disponían de menos tiempo para sus comidas.
+                    </dd>
+                    <dt class="por hidden">Pão de forma</dt>
+                    <dd class="por hidden">Este pão fatiado é, talvez, o mais comum dos pães e que é mais utilizado, especialmente quando se prepara um sanduíche. O 
+                        Pão fatiado é simplesmente um produto da industrialização do início do século XX, quando a invenção da máquina de fatiar
+                        Pão revolucionou a indústria de panificação. O fato de que o pão já foi vendido já cortou perfeitamente a rotina toda vez
+                        mais agitado das pessoas, que tinham menos tempo para as suas refeições.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productoocho">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Pan de maíz</dt>
+                    <dd class="esp visible">El pan de maíz o cornbread es muy popular en la cocina norteamericana. Su preparación de harina de maíz es bastante rápida, ya que
+                        no es necesario dejar que leve la masa, sólo se cocina en un sartén una vez que está lista.
+                    </dd>
+                    <dt class="por hidden">Pão de milho</dt>
+                    <dd class="por hidden">Pão de milho ou pão de milho é muito popular na culinária americana. Sua preparação de farinha de milho é bastante rápida,
+                        Não é necessário deixar a massa acender, ela só é cozida em uma panela quando estiver pronta.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productonueve">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Bolillo</dt>
+                    <dd class="esp visible">Bolillo,  hecho con harina de trigo, muy esponjoso, imitando al pan que hacen en Francia. En México, este tipo de pan se conoce como 
+                        bolillo, habiendo controversia respecto a lo que se conoce como birote.
+                    </dd>
+                    <dt class="por hidden">Bolillo</dt>
+                    <dd class="por hidden">Bolillo, feito com farinha de trigo, muito fofo, imitando o pão que eles fazem na França. No México, esse tipo de pão é conhecido como
+                        bolillo, tendo controvérsia sobre o que é conhecido como birote.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productodiez">
+            <img src="img/elaboracion-de-pan.jpg" width="300px" height="300px">
+            <h3>
+                <dl>
+                    <dt class="esp visible">Broa de Pan</dt>
+                    <dd class="esp visible">Broa de Pan, la broa es un tipo de pan de maíz elaborado tradicionalmente en Portugal y Galicia, además de en Brasil, donde se 
+                        condimenta típicamente con hinojo. A diferencia del cornbread típico del sur de Estados Unidos, el broa se hace con una mezcla de
+                        harina de maíz y harina de trigo o centeno, que se eleva con levadura natural en lugar de química.
+                    </dd>
+                    <dt class="por hidden">Pão broa</dt>
+                    <dd class="por hidden">Broa de Pan, o broa é um tipo de broa de milho tradicionalmente feito em Portugal e na Galiza, bem como no Brasil, onde
+                        É tipicamente sabores com erva-doce. Ao contrário do pão de milho típico do sul dos Estados Unidos, o broa é feito com uma mistura de
+                        farinha de milho e farinha de trigo ou centeio, que é criado com levedura natural em vez de química.
+                    </dd>
+                </dl>
+            </h3>
+            </div>
+            <div id="productoonce">
+                <p class="esp visible" id="img1p">Proximamente</p>
+                <p class="por hidden" id="img1p">Logo</p>
+            <h3>
+                <dl>
+                    <dt class="esp visible" id="img1p">Proximamente</dt>
+                    <dt class="por hidden" id="img1p">Logo</dt>
+                </dl>
+            </h3>
+            </div>
+            <div id="productodoce">
+                <p class="esp visible" id="img2p">Proximamente</p>
+                <p class="por hidden" id="img2p">Logo</p>
+            <h3>
+                <dl>
+                    <dt class="esp visible" >Proximamente</dt>
+                    <dt class="por hidden" >Logo</dt>
+                </dl>
+            </h3>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <footer id="pie">
+            <div>
+        <p class="esp visible">Dirección</p><hr>
+        <p class="por hidden">Endereço</p><hr>
+        <ul>
+            <li class="esp visible">Av. de Montes Sierra, 6</li>
+            <li class="por hidden">Av. de Montes Sierra, 6</li>
+        </ul>
+    </div>
+    <div >
+        <p class="esp visible">Teléfono</p><hr>
+        <p class="por hidden">Telefone</p><hr>
+        <ul>
+            <li>678342323</li>
+        </ul>
+    </div>
+    <div>
+        <p class="esp visible">Ubicación</p><hr>
+        <p class="por hidden">Localização</p><hr>
+        <ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.950256520168!2d-5.959112284462816!3d37.391008641918155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ec5d7b9e255%3A0xde04a42a55388c69!2sAv.+de+Montes+Sierra%2C+6%2C+41007+Sevilla!5e0!3m2!1ses!2ses!4v1544015391810" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </ul>
+    </div>
+</footer>
+    </body>
+</html>
+

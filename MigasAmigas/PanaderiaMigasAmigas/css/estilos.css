@@ -1,0 +1,125 @@
+*{
+    font-family: Verdana;
+}
+body{
+    background-color: burlywood;
+}
+/*******GRID PÁG PRINCIPAL******/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    grid-gap: 10px;
+    background-color: bisque;
+    padding: 10px;
+}
+/*****************************/
+/**********CABECERA**********/
+header{
+    background-color: burlywood;
+    text-align: center;
+}
+header > h1{
+    font-family: "Comic Sans MS";
+    font-size: 60px;
+}
+header > a{
+    font-size: 25px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    border-bottom: solid black;
+    border-top: solid black;
+}
+div>a:hover{
+    border: none;
+}
+#idioma{
+    float: right;
+    padding: 10px;
+}
+/*****************************************/
+/********CONTENIDO PÁG PRINCIPAL*********/
+.introduccion {
+    grid-column: 1 / 3;
+}
+
+.separador{
+    grid-column: 1 / 4;
+}
+div > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+/******************************************/
+/***********TRADUCCIÓN DE LENGUAJE********/
+.por{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.visible{
+display: inline-block;
+}
+/*****************************************/
+/***********GRID PANADERÍA, PASTELERÍA, EMPANADAS***********/
+.grid-container-seccion {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: bisque;
+    margin-top: 10px;
+}
+.grip-imagen{
+    grid-column: 4/5;
+}
+.grid-texto{
+    grid-column: 1/4;
+}
+.grip-img1{
+    grid-column: 1/2;
+}
+.grid-texto1{
+    grid-column: 2/5;
+}
+
+div > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    padding: 5px;
+}
+h2{
+text-align: center;
+}
+
+.imagenSecciones{
+    width: 100%;
+    height: 250px;
+}
+.grid-seccion{
+    grid-column: 2 / 4;
+}
+p{
+padding-left: 10px;
+}
+/**************************************************************/
+/**********GRID PIE DE PÁGINA Y OTROS ELEMENTOS***************/
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+#C{
+    text-align: center;
+    align-content: center;
+}
+ul{
+    list-style: none;
+}
+/**************************************************************/

@@ -1,0 +1,42 @@
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.FormDibujo.resources
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\bin\Debug\Segmentos3.exe.config
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\bin\Debug\Segmentos3.exe
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\bin\Debug\Segmentos3.pdb
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.Properties.Resources.resources
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.exe
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.pdb
+C:\Users\Examen\Desktop\Apellido1_nombre\Segmentos3\bin\Debug\Segmentos3.exe.config
+C:\Users\Examen\Desktop\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.exe
+C:\Users\Examen\Desktop\Apellido1_nombre\Segmentos3\obj\Debug\Segmentos3.pdb
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.exe.config
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.exe
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.pdb
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.exe
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.pdb
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.csprojResolveAssemblyReference.cache
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.FormDibujo.resources
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.Properties.Resources.resources
+C:\Users\Examen\Desktop\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.csproj.GenerateResource.Cache
+C:\Users\AlumnoCSI2\Desktop\Cosas\DWS\1ºEV\Practicas\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.exe.config
+C:\Users\AlumnoCSI2\Desktop\Cosas\DWS\1ºEV\Practicas\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.exe
+C:\Users\AlumnoCSI2\Desktop\Cosas\DWS\1ºEV\Practicas\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.pdb
+E:\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.exe.config
+E:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.exe
+E:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.pdb
+E:\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.exe
+E:\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.pdb
+E:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.csprojResolveAssemblyReference.cache
+E:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.FormDibujo.resources
+E:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.Properties.Resources.resources
+E:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.csproj.GenerateResource.Cache
+J:\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.exe.config
+J:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.exe
+J:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.pdb
+J:\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.exe
+J:\Gaspar_Francisco\Segmentos3\bin\Debug\Segmentos3.pdb
+J:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.csprojResolveAssemblyReference.cache
+J:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.FormDibujo.resources
+J:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.Properties.Resources.resources
+J:\Gaspar_Francisco\Segmentos3\obj\Debug\Segmentos3.csproj.GenerateResource.Cache
