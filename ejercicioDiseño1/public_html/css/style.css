@@ -1,10 +1,11 @@
 body {
-    background: cornsilk;
     margin: auto 0;
+    background: url("../img/bg.jpg"); 
 }
 
 header {
     text-align: center;
+<<<<<<< HEAD
     background: beige;
     font-family: Courier New;
     font-size: 12px;
@@ -14,19 +15,22 @@ header {
     height: 15%;
     margin-left: 5%;
     margin-top: 1%;
+=======
+    width: 80%;
+    margin-left: 10%;
+>>>>>>> 6bf2786ca55ea889d70a1d6ac3ab6ca4dcb2f354
 }
 
-header > a > img {
-    width: 100px;
-    height: 100px;
-    margin-top: 1%;
+#logo {
+    width: 60%;
+    height: 35%;
 }
 
 #ul > li {
     display: inline-block;
     list-style: none;
     font-family: Consolas;
-    font-size: 16px;
-    color: darkblue;
+    font-size: 18px;
     padding: 1%;
+    font-weight: bold;
 }

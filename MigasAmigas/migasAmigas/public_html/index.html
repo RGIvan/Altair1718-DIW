@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Galeria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="ccs/cssprincipal.css" rel="stylesheet" type="text/css"/>
+        <script>
+           function PortuguesAEspañol() {
+    españoles = document.getElementsByClassName("esp");
+    portugues = document.getElementsByClassName("por");
+    for (var i = 0; i < españoles.length; i++) {
+        españoles[i].className = "esp visible";
+    }
+    for (var i = 0; i < portugues.length; i++) {
+        portugues[i].className = "por hidden";
+    }
+}
+function EspañolAPortugues() {
+    españoles = document.getElementsByClassName("esp");
+    portugues = document.getElementsByClassName("por");
+    for (var i = 0; i < portugues.length; i++) {
+        portugues[i].className = "por visible";
+    }
+    for (var i = 0; i < españoles.length; i++) {
+        españoles[i].className = "esp hidden";
+    }
+}   
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="encabezado">
+                <a href="#"><img src="img/logo.jpg"></a>
+            <h1 class="esp visible">Migas Amigas</h1>
+            <h1 class="por hidden">Migas Amigas</h1>
+            <button class="idioma" onclick="EspañolAPortugues()">POR</button>
+            <button class="idioma" onclick="PortuguesAEspañol()">ESP</button>
+            
+        <nav id="nav">
+            <ul id="ul">
+                <li class="esp visible" id="li"><a class="amenu" href="#">Inicio</a></li>
+                <li class="por hidden" id="li"><a class="amenu" href="#">lar</a></li>
+                <li class="esp visible" id="li"><a class="amenu" href="Panaderia.html">Panadería</a></li>
+                <li class="por hidden" id="li"><a class="amenu" href="Panaderia.html">Padaria</a></li>
+                <li class="esp visible" id="li"><a class="amenu" href="">Pasteleria-Bolleria</a></li>
+                <li class="por hidden" id="li"><a class="amenu" href="">Pastelaria-Padaria</a></li>
+                <li class="esp visible" id="li"><a class="amenu" href="">Empanadas</a></li>
+                <li class="por hidden" id="li"><a class="amenu" href="">Empanadas</a></li>
+            </ul>
+        </nav>
+            </div>
+        </header>
+        <div  id="contenido" >
+            <div id="elaboracion">
+                <h1 class="esp visible">Elaboracion del Pan</h1>
+                <h1 class="por hidden">Preparação de Pão</h1>
+                <img src="img/elaboracion-de-pan.jpg" width="300px" height="400px">
+                <img src="img/elaboracion2.jpg" width="300px" height="400px">
+                <img src="img/elaboracion1.jpg" width="300px" height="400px">
+            </div>
+            
+            <p class="esp visible" id="tipos">TIPOS</p>
+            <p class="por hidden" id="tipos">TIPOS</p>
+           <div id="panaderia"> <a href="Panaderia.html">
+                   <p class="esp visible" id="titulo">Panadería</p></a>
+                   <p class="por hidden" id="titulo">Padaria</p></a>
+            </div>
+            <div id="pasteleria"> <a href="#">
+                   <p class="esp visible" id="titulo">Pasteleria-Bolleria</p></a>
+                   <p class="por hidden" id="titulo">Pastelaria-Padaria</p></a>
+            </div>
+            <div id="empanadas"> <a href="#">
+                   <p class="esp visible" id="titulo">Empanadas</p></a>
+                   <p class="por hidden" id="titulo">Empanadas</p></a>
+            </div>
+        </div>
+        <footer id="pie">
+            <div>
+        <p class="esp visible">Dirección</p><hr>
+        <p class="por hidden">Endereço</p><hr>
+        <ul>
+            <li class="esp visible">Av. de Montes Sierra, 6</li>
+            <li class="por hidden">Av. de Montes Sierra, 6</li>
+        </ul>
+    </div>
+    <div >
+        <p class="esp visible">Teléfono</p><hr>
+        <p class="por hidden">Telefone</p><hr>
+        <ul>
+            <li>678342323</li>
+        </ul>
+    </div>
+    <div>
+        <p class="esp visible">Ubicación</p><hr>
+        <p class="por hidden">Localização</p><hr>
+        <ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.950256520168!2d-5.959112284462816!3d37.391008641918155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ec5d7b9e255%3A0xde04a42a55388c69!2sAv.+de+Montes+Sierra%2C+6%2C+41007+Sevilla!5e0!3m2!1ses!2ses!4v1544015391810" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </ul>
+    </div>
+</footer>
+    </body>
+</html>

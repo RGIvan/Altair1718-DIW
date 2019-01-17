@@ -1,0 +1,33 @@
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\bin\Debug\Segmentos2.exe.config
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\bin\Debug\Segmentos2.exe
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\bin\Debug\Segmentos2.pdb
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\obj\Debug\Segmentos2.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\obj\Debug\Segmentos2.FormDibujo.resources
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\obj\Debug\Segmentos2.Properties.Resources.resources
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\obj\Debug\Segmentos2.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\obj\Debug\Segmentos2.exe
+C:\Users\Alberto\Desktop\Segmentos2\Segmentos2\obj\Debug\Segmentos2.pdb
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\bin\Debug\Segmentos2.exe.config
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.exe
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.pdb
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\bin\Debug\Segmentos2.exe
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\bin\Debug\Segmentos2.pdb
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.FormDibujo.resources
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.Properties.Resources.resources
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\bin\Debug\Segmentos2.exe.config
+C:\Users\Alberto\Desktop\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.exe
+C:\Users\Alberto\Desktop\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.pdb
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\bin\Debug\Segmentos2.exe.config
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.exe
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.pdb
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\bin\Debug\Segmentos2.exe
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\bin\Debug\Segmentos2.pdb
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.csprojResolveAssemblyReference.cache
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.FormDibujo.resources
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.Properties.Resources.resources
+C:\Altair\xProg\x2 Windows\xWin_Segmentos2 (1415 )\_Examen Windows\Apellidos_nombre (Segmentos)\Segmentos2\obj\Debug\Segmentos2.csproj.GenerateResource.Cache
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos2\bin\Debug\Segmentos2.exe.config
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos2\obj\Debug\Segmentos2.exe
+C:\Users\Alberto\Desktop\xWin_Segmentos3 (1819 )\_x Segmentos3\Apellido1_nombre\Segmentos2\obj\Debug\Segmentos2.pdb
